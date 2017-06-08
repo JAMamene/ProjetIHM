@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">Projet IHM</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_settings">Settings</string>
+    <string name="quit">X</string>
+    <string name="empty">Rien à voir içi!</string>
+    <string name="person_name">Julie mamene</string>
+    <string name="person_address">julie.mamene@gmail.com</string>
+    <string name="choose_filters">Choisissez vos filtres</string>
+    <string name="all_filters">Tous les filtres</string>
+    <string name="shop_filters">Filtres de magasin</string>
+    <string name="event_filters">Filtres d\'évenement</string>
+    <string name="my_stuff">Mon flux</string>
+    <string name="my_events">Mes évenements</string>
+    <string name="all_stuff">Tout</string>
+    <string name="events">Evenements</string>
+    <string name="shops">Magasins</string>
+    <string name="tweets">Tweets</string>
+    <string name="search">Rechercher</string>
+    <string name="filter">Filtrer</string>
+    <string name="remove">Supprimer</string>
+    <string name="add">Ajouter</string>
+    <string name="add_event">S\'inscrire à cet évenement</string>
+    <string name="remove_event">Se désincrire de cet évenement</string>
+    <string name="to_fav">aux favoris</string>
+    <string name="from_fav">des favoris</string>
+    <string name="cal_update">Votre calendrier par défaut à été mis à jour</string>
+    <string name="no_cal_update">Impossible de mettre votre agenda à jour</string>
+    <string name="cal_remove">Cet évenement à été supprimé de votre calendrier</string>
+    <string name="no_cal_remove">Impossible de supprimer l\'événement de votre calendrier</string>
+    <string name="cal_action">Calendrier mis à jour</string>
+    <string name="tweet_from">Tweet de </string>
+    <string name="no_category">Pas de catégorie disponible</string>
+    <string name="cover_image_of_news">Image de couverture</string>
+    <string name="date_posted">Posté le</string>
+</resources>
