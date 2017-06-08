@@ -25,7 +25,7 @@ import ihm.projetihm.Model.Source;
 
 public class DBHelper extends SQLiteOpenHelper {
 
-    private static String DB_NAME = "dbFinal.db";
+    private static String DB_NAME = "database.db";
 
     private static DBHelper instance;
 

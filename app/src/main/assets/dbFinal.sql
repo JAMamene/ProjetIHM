@@ -42,6 +42,11 @@ INSERT INTO `news` VALUES (8,'Participez au jeu santé',3,4,'http://www.sante-en
 Rejoignez nous mercredi pour participer à un jeu incroyable sur le thème de la santé avec plein de prix à la clé, évenement à CapSophia, mercredi après midi, venez nombreux et apprenez en vous amusant.
 
 Pour toute la famille !',1494446400000,1495029600000,240,NULL);
+INSERT INTO `news` VALUES (9,'Soirée Cap Sophia plage',2,1,'http://www.imperial-garoupe.com/website/var/tmp/thumb_445__slideshow_medium.jpeg','Petite soirée tranquille pour fêter la fin de l''année de Polytech avec le staff de Cap Sophia, venez nombreux vendredi 08 juin, à partir de 20h.
+
+Activités prévues : Alcool, sports de plage, jeux divers et bien d''autres! Vous pouvez gagner de cadeaux cap sophia wouhou!
+
+Alcool à consommer avec modération.',1496930680000,1497038400000,300,NULL);
 CREATE TABLE `category` (
 	`_id`	INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,
 	`name`	TEXT
@@ -81,6 +86,7 @@ INSERT INTO `categ_link` VALUES (7,12);
 INSERT INTO `categ_link` VALUES (7,2);
 INSERT INTO `categ_link` VALUES (8,13);
 INSERT INTO `categ_link` VALUES (8,4);
+INSERT INTO `categ_link` VALUES (9,13);
 CREATE TABLE "author" (
 	`_id`	INTEGER PRIMARY KEY AUTOINCREMENT,
 	`name`	TEXT UNIQUE,

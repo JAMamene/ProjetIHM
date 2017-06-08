@@ -180,8 +180,15 @@ public class MainActivity extends AppCompatActivity
         setTitle(item.getTitle());
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         drawer.closeDrawer(GravityCompat.START);
+        resetFilters();
         switchContent();
         return true;
+    }
+
+    private void resetFilters() {
+        for (Map.Entry<Category, CheckBox> entry : categorySelection.entrySet()) {
+            entry.getValue().setChecked(false);
+        }
     }
 
     public void showFilters(MenuItem item) {
